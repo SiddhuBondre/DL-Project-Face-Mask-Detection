@@ -63,3 +63,7 @@ Add augmentation (flip, crop, brightness)
 Handle class imbalance with weighted loss or oversampling
 
 Use early stopping to avoid overfitting
+
+# ✅ Conclusion
+
+The DL Face Mask Detection project provides a complete pipeline for training, evaluating, and deploying a real-time face mask detector. By leveraging modern deep learning architectures and transfer learning, it can achieve high accuracy on both images and videos. With proper dataset preparation and tuning, the model can be adapted for real-world use cases such as public safety monitoring and automated systems.
