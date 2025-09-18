@@ -43,3 +43,23 @@
 6) image size (224 or 256 for pretrained backbones)
 
 Checkpointing: train.py should save the best model by validation F1 or accuracy.
+
+# 🧠 Models
+
+## Recommended:
+
+MobileNetV2 → Fast & lightweight (good for real-time)
+
+ResNet50 → More accurate (requires GPU)
+
+Custom CNN → Small datasets or edge devices
+
+## Tips:
+
+Use pretrained ImageNet weights
+
+Add augmentation (flip, crop, brightness)
+
+Handle class imbalance with weighted loss or oversampling
+
+Use early stopping to avoid overfitting
